@@ -1,0 +1,65 @@
+//import Sass Files :
+@import "./helpers/variables";
+
+.special {
+	color: $special_color;
+}
+.size-60 {
+	font-size: $title-size;
+}
+.size-20 {
+	font-size: $title-secondary-size;
+}
+
+//Home Section Stylesheet
+section.home {
+	height: 100vh;
+	width: 100%;
+	background-image: url("../../img/dark-background.jpg");
+	background-size: cover;
+	background-position: center;
+	nav {
+		background-color: black;
+		h1 {
+			font-size: 40px;
+			cursor: pointer;
+			letter-spacing: 1px;
+		}
+		.navbar-toggler {
+			font-size: 1.5rem;
+		}
+		.nav-link {
+			color: $text-light;
+			font-size: 1.2rem;
+			text-transform: capitalize;
+			&:hover {
+				color: $special_color;
+				transform: scale(1.1);
+			}
+		}
+	}
+	section.home-content {
+		font-family: Verdana, sans-serif;
+		h1 {
+			font-size: $title-size;
+		}
+	}
+}
+
+//About Section Stylesheet
+section.about {
+	img {
+		max-width: 405px;
+	}
+	.about-content {
+		p {
+			text-align: justify;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-collapse {
+		justify-content: flex-end;
+	}
+}

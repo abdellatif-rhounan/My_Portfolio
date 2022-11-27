@@ -1,0 +1,45 @@
+.special {
+  color: #f9004d; }
+
+.size-60 {
+  font-size: 60px; }
+
+.size-20 {
+  font-size: 20px; }
+
+section.home {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../img/dark-background.jpg");
+  background-size: cover;
+  background-position: center; }
+  section.home nav {
+    background-color: black; }
+    section.home nav h1 {
+      font-size: 40px;
+      cursor: pointer;
+      letter-spacing: 1px; }
+    section.home nav .navbar-toggler {
+      font-size: 1.5rem; }
+    section.home nav .nav-link {
+      color: #f8f9fa;
+      font-size: 1.2rem;
+      text-transform: capitalize; }
+      section.home nav .nav-link:hover {
+        color: #f9004d;
+        transform: scale(1.1); }
+  section.home section.home-content {
+    font-family: Verdana, sans-serif; }
+    section.home section.home-content h1 {
+      font-size: 60px; }
+
+section.about img {
+  max-width: 405px; }
+section.about .about-content p {
+  text-align: justify; }
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end; } }
+
+/*# sourceMappingURL=main.css.map */
