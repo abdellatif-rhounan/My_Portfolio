@@ -1,11 +1,8 @@
 .special {
   color: #f9004d; }
 
-.size-60 {
-  font-size: 60px; }
-
-.size-20 {
-  font-size: 20px; }
+.verdana {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 section.home {
   height: 100vh;
@@ -37,6 +34,19 @@ section.about img {
   max-width: 405px; }
 section.about .about-content p {
   text-align: justify; }
+
+section.services {
+  background-color: black; }
+  section.services .card {
+    width: 350px; }
+
+section.contact .social a i:hover {
+  transform: scale(1.2);
+  border-bottom: 2px solid #f9004d;
+  padding: 4px; }
+
+footer {
+  background-color: black; }
 
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {

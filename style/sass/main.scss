@@ -1,15 +1,6 @@
 //import Sass Files :
 @import "./helpers/variables";
-
-.special {
-	color: $special_color;
-}
-.size-60 {
-	font-size: $title-size;
-}
-.size-20 {
-	font-size: $title-secondary-size;
-}
+@import "./layouts/global";
 
 //Home Section Stylesheet
 section.home {
@@ -57,6 +48,30 @@ section.about {
 		}
 	}
 }
+
+//Services Section Stylesheet
+section.services {
+	background-color: black;
+	.card {
+		width: 350px;
+	}
+}
+
+//Contact Section Stylesheet
+section.contact {
+	.social a i {
+		&:hover {
+			transform: scale(1.2);
+			border-bottom: 2px solid $special_color;
+			padding: 4px;
+		}
+	}
+}
+
+//Footer Section Stylesheet
+	footer {
+		background-color: black;
+	}
 
 @media (min-width: 992px) {
 	.navbar-expand-lg .navbar-collapse {
